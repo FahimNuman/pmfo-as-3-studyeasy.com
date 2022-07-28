@@ -14,10 +14,75 @@ html {
     scroll-behavior: smooth;
 }
 
-#Sing-up {
-    padding: 2% 10%;
-    background: #e00808;
+body {
+    /* font-family: 'Handlee', cursive;*/
+    font-family: 'Montserrat', sans-serif;
+
+
 }
+
+/*header start*/
+h1,
+h2 {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+
+    background-position: center;
+    background-attachment: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    padding: 1% 10%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-icon {
+    color: rgb(206, 24, 182);
+}
+
+.navbar-brand img {
+    width: 70%;
+    height: auto;
+    border: 2px solid rgb(49, 46, 41);
+    border-radius: 10px;
+    padding: 0px 5px;
+
+
+}
+
+.navlink {
+    color: rgb(218, 92, 70);
+    margin: 10px;
+    border-radius: 5px;
+    transform: .4s;
+}
+
+.nav-link:hover {
+    background: #0462a0;
+    color: rgb(210, 226, 210);
+    transform: scale(1.1);
+}
+
+.banner-container {
+    height: 100vh;
+}
+
+.carousel-item h1 {
+    font-size: 3.5rem;
+    background-color: rgba(7, 101, 189, 0.8);
+    padding: 3px 5px;
+    font-family: 'Handlee', cursive;
+    border-radius: 5px;
+}
+#Sing-up {
+    padding: 5% 10%;
+    background: #e0081a;
+}
+
 footer {
     padding: 2% 30%;
     background: #056676;
