@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: o;
+}
+
+.container-demo {
+
+    width: 1000px;
+    background: #33552f;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
